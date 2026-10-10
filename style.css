@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.932);
+}
+
+header h1 {
+    color: gainsboro;
+}
+
+nav{
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+nav .link {
+    background-color: rgba(215, 215, 218, 0.863);
+    border-radius: 20px;
+    color: rgba(0, 0, 0, 0.466);
+    padding: 20px;
+}
+
+nav .link:hover{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition: 0.5s;
+    background-color: whitesmoke;
+    color: rgba(0, 0, 0, 0.829);
+}
