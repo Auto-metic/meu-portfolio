@@ -73,7 +73,7 @@ article img {
 article section {
     padding: 30px;
     margin-top: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 p {
@@ -120,7 +120,7 @@ p {
 footer {
     color: rgb(5, 5, 5);
     padding: 20px;
-    background-color: rgb(233, 233, 235);
+    background-color: white;
 }
 .contact{
     display: flex;
