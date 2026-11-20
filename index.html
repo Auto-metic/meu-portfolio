@@ -4,81 +4,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Pessoal</title>
-    <link href="style1.css" rel="stylesheet">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
     <header>
-        <a href="index.html">
-            <h1>Sou Dev</h1>
-        </a>
-        <nav>
-           <!-- <a href="assets/routes/sobremim.html" class="link">Sobre mim</a> -->
-            <a href="assets/routes/projectos.html" id="specy" class="link">Projectos desenvolvidos</a>
-
+        <nav id="menu">
+            <ul>
+                <li><a href="#ficha" class="link">Home</a></li>
+                <li><a href="#formacao" id="specy" class="link">Formações</a></li>
+                <li><a href="#skills" id="specy" class="link">Skills</a></li>
+                <li><a href="#projetos" id="specy" class="link">Projectos</a></li>
+                <li><a href="#" id="specy" class="link">🌗</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <article>
-            <img src="assets/img/perfil.png">
-            <section>
-                <h2>Olá, eu sou o Bernardo</h2><br>
-                <h3>Desenvolvedor em formação, apaixonado por tecnologia e inovação.</h3>
-                <p>Sou estudante de Informática da 12° classe, com interesse em desenvolvimento web, na programação e na
-                    criação de
-                    soluções digitais. Gosto de transformar ideias em projetos reais, explorar novas tecnologias e
-                    desenvolver as minhas habilidades para criar experiências digitais modernas, funcionais e
-                    intuitivas.</p>
-                <p>Atualmente, estou a aprofundar os meus conhecimentos em HTML, CSS, JavaScript, procurando
-                    evoluir constantemente como programador e enfrentar novos desafios.
+        <section id="ficha">
+            <img src="assets/img/perfil.jpg" alt="bernardo dev" class="foto">
+            <h1>Bernardo Fernando</h1><br>
+            <h3>Desenvolvedor em formação, apaixonado por tecnologia e inovação.</h3>
+            <p>Sou estudante de Informática da 12° classe, com interesse em desenvolvimento web, na programação e na
+                criação de
+                soluções digitais. Gosto de transformar ideias em projetos reais, explorar novas tecnologias e
+                desenvolver as minhas habilidades para criar experiências digitais modernas, funcionais e
+                intuitivas.</p>
+            <p>
 
-                    Este portfólio reúne alguns dos meus projetos, demonstrando a minha evolução e a minha paixão pelo
-                    mundo da tecnologia.</p>
-                <p>O meu objetivo é continuar a aprender, inovar e transformar ideias em soluções que façam a diferença.
-                </p>
-            </section>
-        </article>
-        <h1 class="title-conhe">Habilidades Tecnicas</h1>
-        <section id="conhecimentos">
-            <div class="container">
-                <div class="item">
-                    <img src="assets/img/html5.png">
+                Este portfólio reúne alguns dos meus projetos, demonstrando a minha evolução e a minha paixão pelo
+                mundo da tecnologia.</p>
+            <p>O meu objetivo é continuar a aprender, inovar e transformar ideias em soluções que façam a diferença.
+        </section><!--Bloco ficha fim-->
+        <section id="conteudo">
+            <article id="home">
+
+            </article>
+            <article id="formacao">
+
+            </article>
+            <article id="skills">
+                <h2>Minhas Skills</h2>
+                <div id="skill-container">
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome">HTML5</span>
+                            <span class="porcent">75%</span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 75%;">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome">CSS3</span>
+                            <span class="porcent">60%</span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome">JAVASCRIPT</span>
+                            <span class="porcent">50%</span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 50%;"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome">GITHUB</span>
+                            <span class="porcent">65%</span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 65%;"></div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="item">
-                    <img src="assets/img/css.png">
+            </article>
+            <article id="projetos">
+                <h2>Projetos</h2>
+                <div id="projeto-container">
+                    <div class="projeto">
+                        <img src="assets/img/images.png" alt="projeto 1" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2022</p>
+                            <h3 class="titulo">projecto de video</h3>
+                            <p>Projecto construido para treinar a inserção de video em nosso site</p>
+                        </div>
+                    </div>
+                      <div class="projeto">
+                        <img src="assets/img/images.png" alt="projeto 1" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2022</p>
+                            <h3 class="titulo">projecto de video</h3>
+                            <p>Projecto construido para treinar a inserção de video em nosso site</p>
+                        </div>
+                    </div>
+                      <div class="projeto">
+                        <img src="assets/img/images.png" alt="projeto 1" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2022</p>
+                            <h3 class="titulo">projecto de video</h3>
+                            <p>Projecto construido para treinar a inserção de video em nosso site</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="item">
-                    <img src="assets/img/js1.png">
-                </div>
-            </div>
-            <div class="container">
-                <div class="item">
-                    <img src="assets/img/git.png">
-                </div>
-            </div>
+            </article>
         </section>
-
     </main>
-    <footer id="contactos">
-        <section class="contact">
-            <div class="sociais">
-                <a href="#">Whatsapp</a>
-                <a href="#">facebook</a>
-                <a href="#">Instagram</a>
-            </div>
-            <div class="sociais">
-                <ul>Telefone: 944182187 / 957350904</ul>
-                <ul>Email: bf86529@gmail.com</ul>
-            </div>
-        </section>
+    <footer>
 
-        <strong>© 2026 - Desenvolvido por bernardo dev</strong>
     </footer>
+    <script src="/scripts.js"></script>
 </body>
 
 </html>
